@@ -35,5 +35,5 @@ plot(x=f2$Date_Time, y=f2$Voltage, type = "l", ylab = "Voltage", xlab="datetime"
 plot(x=f2$Date_Time, y=f2$Global_reactive_power, type = "l", ylab = "Global_reactive_power", xlab="datetime")
 
 # Save as png file
-dev.copy(png, "plot4.png"
+dev.copy(png, "plot4.png")
 dev.off()
